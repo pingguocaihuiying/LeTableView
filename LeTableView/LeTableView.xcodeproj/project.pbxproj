@@ -15,6 +15,12 @@
 		C3DF8B5B1DD2EFDE00273E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3DF8B591DD2EFDE00273E43 /* LaunchScreen.storyboard */; };
 		C3DF8B661DD2EFDE00273E43 /* LeTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DF8B651DD2EFDE00273E43 /* LeTableViewTests.m */; };
 		C3DF8B711DD2EFDE00273E43 /* LeTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DF8B701DD2EFDE00273E43 /* LeTableViewUITests.m */; };
+		C3DF8B801DD2FBE900273E43 /* LeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DF8B7F1DD2FBE900273E43 /* LeTableView.m */; };
+		C3DF8B841DD2FDE200273E43 /* LeTableViewInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DF8B831DD2FDE200273E43 /* LeTableViewInterceptor.m */; };
+		C3DF8BB51DD5962300273E43 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DF8BB31DD5962300273E43 /* CustomCell.m */; };
+		C3DF8BB61DD5962300273E43 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DF8BB41DD5962300273E43 /* CustomCell.xib */; };
+		C3DF8C0F1DD99C4200273E43 /* LeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DF8C0E1DD99C4200273E43 /* LeScrollView.m */; };
+		C3DF8C151DD99F5A00273E43 /* LeScrollViewInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DF8C141DD99F5A00273E43 /* LeScrollViewInterceptor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		C3DF8B6C1DD2EFDE00273E43 /* LeTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DF8B701DD2EFDE00273E43 /* LeTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeTableViewUITests.m; sourceTree = "<group>"; };
 		C3DF8B721DD2EFDE00273E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3DF8B7E1DD2FBE900273E43 /* LeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeTableView.h; sourceTree = "<group>"; };
+		C3DF8B7F1DD2FBE900273E43 /* LeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeTableView.m; sourceTree = "<group>"; };
+		C3DF8B821DD2FDE200273E43 /* LeTableViewInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeTableViewInterceptor.h; sourceTree = "<group>"; };
+		C3DF8B831DD2FDE200273E43 /* LeTableViewInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeTableViewInterceptor.m; sourceTree = "<group>"; };
+		C3DF8BB21DD5962300273E43 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		C3DF8BB31DD5962300273E43 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		C3DF8BB41DD5962300273E43 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		C3DF8C0D1DD99C4200273E43 /* LeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeScrollView.h; sourceTree = "<group>"; };
+		C3DF8C0E1DD99C4200273E43 /* LeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeScrollView.m; sourceTree = "<group>"; };
+		C3DF8C131DD99F5A00273E43 /* LeScrollViewInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeScrollViewInterceptor.h; sourceTree = "<group>"; };
+		C3DF8C141DD99F5A00273E43 /* LeScrollViewInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeScrollViewInterceptor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +118,8 @@
 		C3DF8B4A1DD2EFDE00273E43 /* LeTableView */ = {
 			isa = PBXGroup;
 			children = (
+				C3DF8C0C1DD99C1900273E43 /* LeTitleScroll */,
+				C3DF8B811DD2FBF000273E43 /* LeTableView */,
 				C3DF8B4E1DD2EFDE00273E43 /* AppDelegate.h */,
 				C3DF8B4F1DD2EFDE00273E43 /* AppDelegate.m */,
 				C3DF8B511DD2EFDE00273E43 /* ViewController.h */,
@@ -138,6 +157,31 @@
 				C3DF8B721DD2EFDE00273E43 /* Info.plist */,
 			);
 			path = LeTableViewUITests;
+			sourceTree = "<group>";
+		};
+		C3DF8B811DD2FBF000273E43 /* LeTableView */ = {
+			isa = PBXGroup;
+			children = (
+				C3DF8B7E1DD2FBE900273E43 /* LeTableView.h */,
+				C3DF8B7F1DD2FBE900273E43 /* LeTableView.m */,
+				C3DF8B821DD2FDE200273E43 /* LeTableViewInterceptor.h */,
+				C3DF8B831DD2FDE200273E43 /* LeTableViewInterceptor.m */,
+				C3DF8BB21DD5962300273E43 /* CustomCell.h */,
+				C3DF8BB31DD5962300273E43 /* CustomCell.m */,
+				C3DF8BB41DD5962300273E43 /* CustomCell.xib */,
+			);
+			name = LeTableView;
+			sourceTree = "<group>";
+		};
+		C3DF8C0C1DD99C1900273E43 /* LeTitleScroll */ = {
+			isa = PBXGroup;
+			children = (
+				C3DF8C0D1DD99C4200273E43 /* LeScrollView.h */,
+				C3DF8C0E1DD99C4200273E43 /* LeScrollView.m */,
+				C3DF8C131DD99F5A00273E43 /* LeScrollViewInterceptor.h */,
+				C3DF8C141DD99F5A00273E43 /* LeScrollViewInterceptor.m */,
+			);
+			name = LeTitleScroll;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DF8BB61DD5962300273E43 /* CustomCell.xib in Resources */,
 				C3DF8B5B1DD2EFDE00273E43 /* LaunchScreen.storyboard in Resources */,
 				C3DF8B581DD2EFDE00273E43 /* Assets.xcassets in Resources */,
 				C3DF8B561DD2EFDE00273E43 /* Main.storyboard in Resources */,
@@ -270,9 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DF8B841DD2FDE200273E43 /* LeTableViewInterceptor.m in Sources */,
+				C3DF8B801DD2FBE900273E43 /* LeTableView.m in Sources */,
+				C3DF8C0F1DD99C4200273E43 /* LeScrollView.m in Sources */,
+				C3DF8C151DD99F5A00273E43 /* LeScrollViewInterceptor.m in Sources */,
 				C3DF8B531DD2EFDE00273E43 /* ViewController.m in Sources */,
 				C3DF8B501DD2EFDE00273E43 /* AppDelegate.m in Sources */,
 				C3DF8B4D1DD2EFDE00273E43 /* main.m in Sources */,
+				C3DF8BB51DD5962300273E43 /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +548,7 @@
 				C3DF8B771DD2EFDE00273E43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3DF8B781DD2EFDE00273E43 /* Build configuration list for PBXNativeTarget "LeTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +557,7 @@
 				C3DF8B7A1DD2EFDE00273E43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3DF8B7B1DD2EFDE00273E43 /* Build configuration list for PBXNativeTarget "LeTableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +566,7 @@
 				C3DF8B7D1DD2EFDE00273E43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
