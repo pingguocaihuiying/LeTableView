@@ -65,7 +65,7 @@ CGFloat const KTableHeight=500.0f;
 
 - (LeScrollView *)titleScroll{
     if (!_titleScroll) {
-        NSArray *dataArr = @[@"儿童",@"收藏",@"热门",@"音乐",@"小说",@"直播",@"情感",];
+        NSArray *dataArr = @[@"儿童文学",@"收藏",@"热门啊",@"音乐天天",@"小说",@"直播",@"情感",];
         _titleScroll = [[LeScrollView alloc]initWithFrame:CGRectMake(0, SH-KTableHeight-50, SW, 50) withDataArr:dataArr];
         _titleScroll.delegate = self;
         _titleScroll.changeDelegate = self;

@@ -18,7 +18,7 @@
 
 @interface LeScrollView : UIScrollView
 
-@property (nonatomic, strong) id <LeChangeDelegate>changeDelegate;
+@property (nonatomic, assign) id <LeChangeDelegate>changeDelegate;
 
 - (id)initWithFrame:(CGRect)frame withDataArr:(NSArray *)arr;
 
